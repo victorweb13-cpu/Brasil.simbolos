@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Símbolos Nacionais do Brasil</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #ddd9ce; /* fundo ajustado */
+      color: #003300;
+      text-align: center;
+    }
+
+    header {
+      background-color: #009739;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+
+    header h2 {
+      margin-top: 5px;
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    main {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .simbolos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 20px;
+    }
+
+    .simbolo {
+      background: white;
+      border-radius: 15px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .simbolo:hover {
+      transform: scale(1.05);
+    }
+
+    .simbolo img {
+      width: 220px;
+      border-radius: 10px;
+      border: 3px solid #009739;
+    }
+
+    .simbolo p {
+      margin-top: 10px;
+      font-weight: bold;
+      color: #004aad;
+    }
+
+    audio {
+      margin-top: 40px;
+      width: 300px;
+      outline: none;
+      filter: drop-shadow(0 2px 5px rgba(0,0,0,0.3));
+    }
+
+    h3 {
+      color: #009739;
+      margin-top: 50px;
+      font-size: 22px;
+    }
+
+    p {
+      width: 80%;
+      margin: 15px auto;
+      font-size: 17px;
+      color: #003366;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #004aad;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    a:hover {
+      background-color: #0066cc;
+    }
+
+    footer {
+      margin-top: 50px;
+      background-color: #009739;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-top: 3px solid #ffdf00;
+    }
+
+    /* ======= MAPA MAIS LARGO E MENOR ======= */
+    iframe {
+      margin-top: 20px;
+      width: 80%;   /* mais largo */
+      height: 250px; /* menor */
+      border: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SÍMBOLOS NACIONAIS</h1>
+    <h2>República Federativa do Brasil</h2>
+  </header>
+
+  <main>
+    
+    <section class="simbolos">
+      <div class="simbolo">
+        <img src="imagens/bandeira_brasil.jpg" alt="Bandeira do Brasil">
+        <p>Bandeira do Brasil</p>
+      </div>
+      <div class="simbolo">
+        <img src="imagens/brasao_republica.jpg" alt="Brasão da República">
+        <p>Brasão da República</p>
+      </div>
+    </section>
+
+    <audio controls>
+      <source src="audios/hino_nacional.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+
+    <h3>Símbolos Nacionais do Brasil</h3>
+    <p>
+      Os símbolos nacionais do Brasil são representações oficiais que identificam e representam a nação brasileira.
+      Entre eles estão a Bandeira, o Hino Nacional, as Armas Nacionais (Brasão) e o Selo Nacional.
+      Cada um possui um significado histórico e cultural que reforça a identidade e o orgulho do nosso país.
+    </p>
+
+    <h3 class="texto-titulo">Região Sudeste do Brasil</h3>
+    <table style="margin: 0 auto; border-collapse: collapse; width: 60%;">
+      <tr style="background-color: #009739; color: white;">
+        <th style="padding: 8px; border: 1px solid #004aad;">Estado</th>
+        <th style="padding: 8px; border: 1px solid #004aad;">Capital</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <td style="padding: 8px; border: 1px solid #004aad;">São Paulo</td>
+        <td style="padding: 8px; border: 1px solid #004aad;">São Paulo</td>
+      </tr>
+      <tr style="background-color: #ffffff;">
+        <td style="padding: 8px; border: 1px solid #004aad;">Minas Gerais</td>
+        <td style="padding: 8px; border: 1px solid #004aad;">Belo Horizonte</td>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <td style="padding: 8px; border: 1px solid #004aad;">Rio de Janeiro</td>
+        <td style="padding: 8px; border: 1px solid #004aad;">Rio de Janeiro</td>
+      </tr>
+      <tr style="background-color: #ffffff;">
+        <td style="padding: 8px; border: 1px solid #004aad;">Espírito Santo</td>
+        <td style="padding: 8px; border: 1px solid #004aad;">Vitória</td>
+      </tr>
+    </table>
+
+    <!-- Google Maps ajustado para Região Sudeste -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d582013.123456!2d-44.000000!3d-20.000000!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRegi%C3%A3o%20Sudeste%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1600000000000"
+      allowfullscreen="" loading="lazy"></iframe>
+
+    <!-- Links abaixo do mapa -->
+    <br>
+    <a href="https://youtu.be/x_cuDao5ngI" target="_blank">Brasões da República</a>
+    <br>
+    <a href="index.html">Página Inicial</a>
+    <br><br>
+    <a href="simbolos.html">Mais símbolos nacionais</a>
+
+  </main>
+
+  <footer>
+    © 2025 criado por Victor Coimbra 🇧🇷
+  </footer>
+
+</body>
+</html>
